@@ -18,17 +18,21 @@ int main()
 
     string result2 = "";
 
-    result+=str[i]
-
     for (int i = 0; i < m; i++)
     {
+        bool duplicate = false;
         for (int j = i + 1; j < m; j++)
         {
-            if (result[i] != result[j])
+            if (result[i] == result[j])
             {
-                result2 += result[j];
+                duplicate = true;
+                break;
             }
-                }
+        }
+        if (!duplicate)
+        {
+            result2 += result[i];
+        }
     }
 
     cout << result2 << endl;
