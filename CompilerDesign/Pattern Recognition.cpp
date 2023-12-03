@@ -7,6 +7,8 @@ int main(){
     // str = "aaaabbb";
     // str = "aaaaaaaa";
     // str = "abb";
+
+    
     getline(cin, str);
 
     int n = str.length();
