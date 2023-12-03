@@ -27,6 +27,7 @@ int main()
 
         // Check if the character is already in the result string
         int l = result2.length();
+        // Control shift L
         for (int j = 0; j < l; ++j)
         {
             if (result2[j] == currentChar)
