@@ -17,15 +17,17 @@ int main()
     string result2 = "";
     int m = result.length();
 
-    for(int i = 0; i<m;i++){
+    for (int i = 0; i < m; i++)
+    {
         do
         {
-            result2+=result[i];
-        } while (result[i] != 'D' || result[i] != 'U' || result[i] != 'S');
+            result2 += result[i];
+            i++;
+        } while (i < m && (result[i] != 'D' && result[i] != 'U' && result[i] != 'S'));
     }
 
-    cout << result.length() << endl;
-    cout<<result2<<endl;
+    cout << result2.length() << endl;
+    cout << result2 << endl;
 
     return 0;
 }
