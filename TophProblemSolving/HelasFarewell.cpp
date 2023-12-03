@@ -11,14 +11,21 @@ int main()
     {
         if (str[i] != '_')
         {
-            if (str[i] == 'D' or 'I' or 'E' or 'L' or 'O' or 'U' or 'S')
-            {
-                result += str[i];
-            }
+            result += str[i];
         }
+    }
+    string result2 = "";
+    int m = result.length();
+
+    for(int i = 0; i<m;i++){
+        do
+        {
+            result2+=result[i];
+        } while (result[i] != 'D' || result[i] != 'U' || result[i] != 'S');
     }
 
     cout << result.length() << endl;
+    cout<<result2<<endl;
 
     return 0;
 }
