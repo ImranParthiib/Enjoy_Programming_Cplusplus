@@ -17,7 +17,7 @@ int main()
     string result2 = "";
     int m = result.length();
 
-    for (int i = 0; i < m; i++)
+    for (int i = 0; i < m-1; i++)
     {
         do
         {
