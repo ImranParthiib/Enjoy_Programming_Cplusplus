@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    char ch = 3;
+    char ch = 42;
     for (int i = 1; i <= 40; i++)
     {
         if (i == 8 || i == 9 || i == 7 || i == 6 || i == 25 || i == 26 || i == 27 || i == 28)

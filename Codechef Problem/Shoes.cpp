@@ -6,7 +6,7 @@ int main()
     int n, m, t;
     cin >> t;
     int totalshoes;
-    for (int i = 0; i <= t; i++)
+    for (int i = 1; i <= t; i++)
     {
         cin >> n;
         cin >> m;
