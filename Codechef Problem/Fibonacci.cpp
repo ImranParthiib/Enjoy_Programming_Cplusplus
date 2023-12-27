@@ -23,7 +23,7 @@ int main()
     }
     int nthTerm = 0, count;
     cout << endl;
-    cout << "Enter the right term to show" << endl;
+    cout << "Enter the nth-term to show" << endl;
     cin >> count;
     term1 = 0;
     term2 = 1;
