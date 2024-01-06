@@ -24,7 +24,7 @@ int main()
     }
 
     // Showing the A Matrix:
-    cout << "A Matrix" << endl;
+    cout << "A Matrix:" << endl;
     for (int i = 0; i < numOfRow; i++)
 
     {
