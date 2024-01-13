@@ -32,3 +32,5 @@ Embark on an exciting programming journey with a collection of engaging problems
    git clone https://github.com/your-username/Enjoy_Programming_Cplusplus.git
 
 
+### LICENSE
+[License](LICENSE)
