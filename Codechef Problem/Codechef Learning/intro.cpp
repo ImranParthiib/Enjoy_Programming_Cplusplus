@@ -9,6 +9,7 @@ int main(){
     * ? It is used with cout to send data to the output stream.
     * * Semicolon is used to end a statement, like period (.) in English.
     * ! << endl : to have the next outputs be on the next line
+    * !cin is a predefined variable that reads data from the keyboard with the       extraction operator >>.
     * @param 
     * TODO:
     */
