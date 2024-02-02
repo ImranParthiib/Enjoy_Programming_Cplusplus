@@ -37,8 +37,8 @@ void findAge(int current_date, int current_month,
     // print the present age
     cout << "Present Age" << endl;
     cout << "Years: " << calculated_year << endl;
-    cout << " Months: " << calculated_month << endl;
-    cout << " Days: " << calculated_date << endl;
+    cout << "Months: " << calculated_month << endl;
+    cout << "Days: " << calculated_date << endl;
 }
 
 // driver code to check the above function
