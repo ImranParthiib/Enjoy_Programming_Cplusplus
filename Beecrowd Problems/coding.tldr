@@ -66,9 +66,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 147.9199981689453,
-			"y": 130.0800018310547,
-			"lastActivityTimestamp": 1708881937339,
+			"x": 184.75,
+			"y": 114.07998657226562,
+			"lastActivityTimestamp": 1708884274682,
 			"meta": {}
 		},
 		{
@@ -101,7 +101,7 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 911.3599853515625,
+				"w": 912,
 				"h": 576
 			},
 			"zoomBrush": null,
@@ -123,7 +123,7 @@
 			"scribbles": [],
 			"insets": [
 				false,
-				true,
+				false,
 				true,
 				false
 			],
@@ -100367,6 +100367,55 @@
 			},
 			"parentId": "page:89q3R-1ooXijxSencQCwU",
 			"index": "aA",
+			"typeName": "shape"
+		},
+		{
+			"x": 243,
+			"y": 132.63999938964844,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:plI9l5ulIW-J24Gbegxq_",
+			"type": "draw",
+			"props": {
+				"segments": [
+					{
+						"type": "free",
+						"points": [
+							{
+								"x": 0,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": -0.44,
+								"y": 0.48,
+								"z": 0.5
+							},
+							{
+								"x": -1.08,
+								"y": 1.12,
+								"z": 0.5
+							},
+							{
+								"x": -1.08,
+								"y": 2.4,
+								"z": 0.5
+							}
+						]
+					}
+				],
+				"color": "light-blue",
+				"fill": "solid",
+				"dash": "solid",
+				"size": "s",
+				"isComplete": true,
+				"isClosed": false,
+				"isPen": false
+			},
+			"parentId": "page:89q3R-1ooXijxSencQCwU",
+			"index": "aB",
 			"typeName": "shape"
 		}
 	]
