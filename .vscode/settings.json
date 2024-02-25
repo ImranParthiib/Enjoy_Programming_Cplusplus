@@ -1,6 +1,15 @@
 {
-    "files.associations": {
-        "iostream": "cpp",
-        "ostream": "cpp"
-    }
+  "files.associations": {
+    "iostream": "cpp",
+    "ostream": "cpp"
+  },
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "files.autoSave": "afterDelay",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "notebook.formatOnSave.enabled": true,
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  }
 }
