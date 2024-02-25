@@ -66,9 +66,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 128.0800018310547,
-			"y": 156.95999145507812,
-			"lastActivityTimestamp": 1708881255301,
+			"x": 147.9199981689453,
+			"y": 130.0800018310547,
+			"lastActivityTimestamp": 1708881937339,
 			"meta": {}
 		},
 		{
@@ -100328,6 +100328,45 @@
 			},
 			"parentId": "page:89q3R-1ooXijxSencQCwU",
 			"index": "a9",
+			"typeName": "shape"
+		},
+		{
+			"x": 155.58999633789062,
+			"y": 133.27999877929688,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:dNSO4356N1ta6-apRlaNh",
+			"type": "draw",
+			"props": {
+				"segments": [
+					{
+						"type": "free",
+						"points": [
+							{
+								"x": 0,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": -0.71,
+								"y": 0.48,
+								"z": 0.5
+							}
+						]
+					}
+				],
+				"color": "light-blue",
+				"fill": "solid",
+				"dash": "solid",
+				"size": "s",
+				"isComplete": true,
+				"isClosed": false,
+				"isPen": false
+			},
+			"parentId": "page:89q3R-1ooXijxSencQCwU",
+			"index": "aA",
 			"typeName": "shape"
 		}
 	]
