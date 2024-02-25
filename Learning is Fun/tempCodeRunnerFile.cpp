@@ -1,13 +1,6 @@
-int x = 10;
-    ++x;
-    cout << x << endl;
-    string firstName = "Imran";
-    string lastName = "Parthib";
-    lastName[6] = 'O';
-    cout << lastName << endl;
-
-    int a;
-    cout << "'enter the number to be square rooted' " << endl;
-    cin >>
-        a;
-    cout << sqrt(a);
+char ch1 = '#';
+    char ch2 = '*';
+    char ch3 = '^';
+    char ch4 = '@';
+    char ch5 = '!';
+    char ch6 = '+';
