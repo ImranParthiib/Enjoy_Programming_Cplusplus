@@ -1,61 +1,32 @@
 #include <iostream>
-#include <vector>
-#include <algorithm>
-
 using namespace std;
 
+int solve(int* array, int size) {
+    int sum = 0;
+    for (int i = 0; i < size; i++)
+        sum += array[i];
+    
+    if (sum % 3 == 0) return 0;
+
+    if ((sum + 1) % 3 == 0) return 1;
+    
+    for (int i = 0; i < size; i++)
+        if ((sum - array[i]) % 3 == 0) return 1;
+    
+    return 2;
+}
+
 int main() {
-    // Read the number of test cases
     int t;
     cin >> t;
-
     while (t--) {
-        // Read the size of the array and the array itself
         int n;
         cin >> n;
-        vector<int> arr(n);
-        for (int i = 0; i < n; ++i) {
-            cin >> arr[i];
+        int A[n];
+        for (int i = 0; i < n; i++) {
+            cin >> A[i];
         }
-
-        // Calculate the sum of the array elements
-        int total_sum = 0;
-        for (int num : arr) {
-            total_sum += num;
-        }
-
-        // Calculate the remainder when total sum is divided by 3
-        int rem = total_sum % 3;
-
-        // If remainder is 0, no moves are needed
-        if (rem == 0) {
-            cout << "0" << endl;
-        }
-        // If remainder is 1, need to remove one element with remainder 1 or two elements with remainder 2
-        else if (rem == 1) {
-            if (find(arr.begin(), arr.end(), 1) != arr.end()) {
-                cout << "1" << endl;
-            }
-            else if (count(arr.begin(), arr.end(), 2) >= 2) {
-                cout << "2" << endl;
-            }
-            else {
-                cout << "1" << endl;
-            }
-        }
-        // If remainder is 2, need to remove one element with remainder 2 or two elements with remainder 1
-        else {
-            if (find(arr.begin(), arr.end(), 2) != arr.end()) {
-                cout << "1" << endl;
-            }
-            else if (count(arr.begin(), arr.end(), 1) >= 2) {
-                cout << "2" << endl;
-            }
-            else {
-                cout << "1" << endl;
-            }
-        }
+        cout << solve(A, n) << endl;
     }
-
     return 0;
 }
