@@ -6,12 +6,22 @@ int main() {
     int n = sizeof(myScore) / sizeof(int);
     cout << n << endl;
     int lowestValue = myScore[0];
+    int highestValue = myScore[0];
 
     for (int i = 0; i < n; i++) {
         if (myScore[i] < lowestValue) {
             lowestValue = myScore[i];
         }
     }
+
+    for (int i : myScore) {
+        if (myScore[i] > highestValue) {
+            highestValue = myScore[i];
+        }
+    }
+
     cout << lowestValue << endl;
+    cout << highestValue << endl;
+
     return 0;
 }
