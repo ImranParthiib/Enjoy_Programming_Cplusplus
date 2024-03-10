@@ -14,7 +14,7 @@ int main() {
         }
     }
 
-    for (int i : myScore) {
+    for (int i = 0; i < n; i++) {
         if (myScore[i] > highestValue) {
             highestValue = myScore[i];
         }
