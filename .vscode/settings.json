@@ -4,7 +4,8 @@
     "ostream": "cpp",
     "random": "cpp",
     "string": "cpp",
-    "ratio": "cpp"
+    "ratio": "cpp",
+    "vector": "cpp"
   },
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
