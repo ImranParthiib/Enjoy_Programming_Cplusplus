@@ -5,7 +5,9 @@
     "random": "cpp",
     "string": "cpp",
     "ratio": "cpp",
-    "vector": "cpp"
+    "vector": "cpp",
+    "cmath": "cpp",
+    "complex": "cpp"
   },
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
