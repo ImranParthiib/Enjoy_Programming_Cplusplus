@@ -1,32 +1,32 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <string>
+#include <vector>
 using namespace std;
 
-int main()
-{
-    string str;
-    str = "15000228888888";
-    int n = str.size();
+int main() {
+    string n;
 
-    string temp3;
-    for (int i = 0; i < n; i++)
-    {
-        int temp1 = 0;
-        for (int j = i + 1; j < n; j++)
-        {
-            int temp2 = 0;
-            if (str[i] == str[j])
-            {
-                temp1++;
+    while (cin >> n) {
+        vector<int> freq(10, 0);
 
-                if (temp1 > temp2)
-                {
-                    int temp2 = temp1;
-                    temp3 = str[i];
-                }
+        // Count the frequency of each digit
+        for (char digit : n) {
+            freq[digit - '0']++;
+        }
+
+        // Find the most frequent digit
+        int max_freq = 0;
+        int most_frequent_digit = 0;
+        for (int i = 0; i < 10; i++) {
+            if (freq[i] > max_freq || (freq[i] == max_freq && i > most_frequent_digit)) {
+                max_freq = freq[i];
+                most_frequent_digit = i;
             }
         }
+
+        // Output the most frequent digit
+        cout << most_frequent_digit << endl;
     }
-    cout << temp3 << endl;
 
     return 0;
 }
